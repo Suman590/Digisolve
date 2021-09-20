@@ -257,7 +257,7 @@ header {
   color: #fff;
   font-weight: 300;
   font-size: 120%;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .header-box {
@@ -284,7 +284,7 @@ header {
 .btn-full:visited{
   color: #fff;
   background-color: #db4ba6;
-  padding: 10px 30px;
+  padding: 10px 10px;
   transition: background-color 0.3s;
 }
 
@@ -298,6 +298,11 @@ header {
   margin: 20px 50px;
   height: 50px;
 /*     float: left; */
+}
+
+.nav-item {
+  text-align: center;
+  padding: 0;
 }
 
 .main-nav {
@@ -318,7 +323,6 @@ header {
   text-decoration: none;
   color: #fff;
   font-size: 150%;
-  margin-right: 50px;
   margin-top: 100px;
   padding-bottom: 10px;
   border-bottom: 2px solid rgba(0,0,0,0);
@@ -334,6 +338,10 @@ header {
   display: flex;
   flex-direction: column;
   margin: 50px 50px;
+}
+
+.section-about {
+  margin-top: 50px;
 }
 
 .about-content {
